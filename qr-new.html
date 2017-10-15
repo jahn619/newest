@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-qr.css">
+    <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+
+    <title>JRS QR Generator</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-toggleable-sm fixed-top noPrint">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <a class="navbar-brand" href="#"><img src="img/jrs-logo.png" height="30" width="50" alt=""></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="./qr.html"><span class="fa fa-list fa-lg"></span> QR Generator</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron jumbotron-qr">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-6 offset-5">
+                    <h1>JRS-QR</h1>
+                </div>
+                <div class="col-1">
+                    <a class="btn btn-facebook" id="qr-new" data-toggle="modal" href="#qr-modal">New QR</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row row-content" id="div-print">
+            <div class="col-6" id="leftSide">
+            </div>
+            <div class="col-6" id="rightSide"></div>
+        </div>
+    </div>
+
+    <footer class="footer fixed-bottom">
+        <div class="container footer-qr">
+            <div class="row">
+                <div class="col-5 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./qr.html">QR Generator</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 offset-1 col-sm-4">
+                    <h5>Contact us</h5>
+                    <i class="fa fa-phone fa-lg"></i> : +963 941 333 879<br>
+                    <i class="fa fa-envelope fa-lg"></i> : <a href="mailto:jahndaboura@gmail.com">jahndaboura@gmail.com</a>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div style="text-align: center">
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>© Copyright 2017 JRS Syria</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.qrcode.js"></script>
+    <script type="text/javascript" src="js/qrcode.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>
