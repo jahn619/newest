@@ -1,13 +1,15 @@
 #leftSide {
     position: absolute;
+    left: 280px;
     z-index: 0;
-    left: -130px;
+    top: 10px;
 }
 
 #rightSide {
     position: absolute;
     z-index: 0;
-    left: 330px;
+    left: 600px;
+    top: 10px;
 }
 
 .jumbotron-qr {
@@ -24,24 +26,24 @@
     }
     #div-print {
         position: absolute;
-        left: 0;
-        top: 0;
+        left: -175px;
+        top: -75px;
     }
 }
 
 #div-print img {
     position: absolute;
     border-style: solid;
-    width: 344px;
-    height: 150px;
     z-index: 1;
 }
 
 #div-print p {
     position: absolute;
     font-style: italic;
+    font-weight: bold;
     z-index: 2;
-    font-size: 150%
+    max-width: 80px;
+    max-height: 10px;
 }
 
 #div-print div {
@@ -49,4 +51,6 @@
     z-index: 2;
 }
 
-.footer-qr {}
+.row-content-qr {
+    min-height: 1000px;
+}

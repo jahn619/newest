@@ -10,10 +10,12 @@
 
     <link rel="shortcut icon" href="img/favicon.ico">
     <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
     <link rel="stylesheet" href="css/styles-qr.css">
     <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
 
@@ -50,14 +52,14 @@
     </header>
 
     <div class="container">
-        <div class="row row-content" id="div-print">
+        <div class="row row-content-qr" id="div-print">
             <div class="col-6" id="leftSide">
             </div>
             <div class="col-6" id="rightSide"></div>
         </div>
     </div>
 
-    <footer class="footer fixed-bottom">
+    <footer class="footer">
         <div class="container footer-qr">
             <div class="row">
                 <div class="col-5 offset-1 col-sm-2">
@@ -89,13 +91,16 @@
     </footer>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.qrcode.js"></script>
     <script type="text/javascript" src="js/qrcode.js"></script>
-    <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/scripts-qr.js"></script>
 
 </body>
 
