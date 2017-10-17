@@ -8,10 +8,10 @@ var left_left_p_pos = 22;
 var top_right_p_pos = 57;
 var left_right_p_pos = 22;
 
-var top_left_qr_pos = 2;
-var left_left_qr_pos = 118;
-var top_right_qr_pos = 2;
-var left_right_qr_pos = 118;
+var top_left_qr_pos = 4;
+var left_left_qr_pos = 119;
+var top_right_qr_pos = 4;
+var left_right_qr_pos = 119;
 
 $("#qr-new").click(function() {
 
